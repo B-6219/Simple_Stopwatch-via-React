@@ -14,4 +14,41 @@ body{
   border-radius: 50px;
   border: 5px solid;
 }
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  color: gray;
+  text-shadow: 2px 2px 2px hsl(0, 0%, 0%);
+  font-weight: bold;
+  margin: 5px;
+}
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  min-width: 125px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.start_btn{
+  background: hsl(115, 99%, 50%);
+}
+.start_btn:hover{
+  background: hsl(120, 80%, 30%);
+}
 
+.reset_btn{
+  background: hsl(10, 90%, 50%);
+}
+.reset_btn:hover{
+  background: hsl(10, 80%, 30%);
+}
+.stop_btn{
+  background: hsl(253, 91%, 40%);
+}
+.stop_btn:hover{
+  background: hsl(249 , 90%, 30%);
+}
