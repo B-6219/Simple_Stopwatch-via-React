@@ -1,0 +1,17 @@
+body{
+  background-color: black;
+  color: chartreuse;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: wheat;
+  border-radius: 50px;
+  border: 5px solid;
+}
+
